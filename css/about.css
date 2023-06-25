@@ -1,0 +1,62 @@
+.about {
+    background-color: #0e1524;
+    margin-top: 80px;
+    box-shadow: 0px 0px 10px 10px #00000048;
+    height: 1000px;
+
+}
+
+.title-about {
+    text-align: center;
+    color: white;
+    font-size: 2.6rem;
+}
+
+.description {
+    color: #fff;
+    text-align: center;
+    display: block;
+    margin: 50px auto 0px auto;
+    width: 95%;
+    line-height: 20px;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+
+.skill {
+    background-color: #101b31;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin-top: 80px;
+}
+
+.skill figure img {
+    width: 9rem;
+    border-radius: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skill .right h5 {
+    color: #fff;
+}
+
+.skill span {
+    color: #bed1f8;
+    font-size: 1.4rem;
+    margin-right: 2px;
+}
+
+.skill ul {
+    margin-top: 20px;
+}
+
+.skill li {
+    color: #fff;
+    margin: 0px 0px 10px 0px;
+}

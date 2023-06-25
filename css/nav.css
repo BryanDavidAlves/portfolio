@@ -1,0 +1,14 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+header ul{
+    display: flex;
+    gap: 20px;
+}
+header a{
+    color: #fff;
+    text-decoration: none;
+    
+}
