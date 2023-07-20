@@ -10,7 +10,7 @@ body{
 }
 .titLe{
     font-size: 5rem;
-    margin-left: 5%;
+
 }
 .home figure img{
     border-radius: 100%;
@@ -33,12 +33,14 @@ body{
     color: #101a2e;
     width: 150px;
     padding: 8px;
-    margin-left: 11%;
-    margin-top: -70px;
     text-align: center;
     border-radius: 2px;
+    margin-left: 10px;
 }
 .conhecimento:hover{
     background-color: #d4def4;
     cursor: default;
+}
+.align-title{
+    width: 50%;
 }
