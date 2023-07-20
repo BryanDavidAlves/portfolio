@@ -3,7 +3,9 @@
     margin-top: 80px;
     box-shadow: 0px 0px 10px 10px #00000048;
     height: 1000px;
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .title-about {
@@ -26,12 +28,12 @@
 .skill {
     background-color: #101b31;
     width: 80%;
-    margin-right: auto;
-    margin-left: auto;
     display: flex;
     justify-content: space-around;
     padding: 20px;
     margin-top: 80px;
+    align-items: center;
+    
 }
 
 .skill figure img {
@@ -44,19 +46,47 @@
 
 .skill .right h5 {
     color: #fff;
+    margin-top: 10px;
 }
 
 .skill span {
-    color: #bed1f8;
-    font-size: 1.4rem;
+    color: #00a6ff;
+    font-size: 1.3rem;
     margin-right: 2px;
+    font-weight: 700;
 }
 
 .skill ul {
     margin-top: 20px;
 }
-
+#list-right{
+    margin-top: 40px;
+}
 .skill li {
     color: #fff;
     margin: 0px 0px 10px 0px;
+}
+.level{
+    height: 25px;
+    width: 90%;
+    background-color: #0055ff0f;
+    margin-bottom: 15px;
+}
+.left, .right{
+    width: 40%;
+}
+.level1{
+    width: 80%;
+    height: 100%;
+    background-color: #00a6ff;
+}
+.level2{
+    width: 30%;
+    height: 100%;
+    background-color: #00a6ff;
+}
+.level3{
+    width: 35%;
+    height: 100%;
+    background-color: #00a6ff;
 }
